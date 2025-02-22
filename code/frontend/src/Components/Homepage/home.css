@@ -1,0 +1,92 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .homepage-container{
+    width: 100%;
+  }
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    background-color:rgb(240, 240, 240);
+    padding: 2px;
+    
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Homepage Image styles */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    width: 100%;
+    
+  }
+  
+  .homepage-image {
+    max-width: 100%;
+    height: auto;
+    width: 500px; /* Set a width for the homepage image */
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .my-text{
+    position:relative;
+    top: -500px;
+    left: 100px;
+    color: white;
+  }
+  .title-text{
+    color: white;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .subtitle-text{
+font-style: italic;
+font-size: 30px;
+  }
